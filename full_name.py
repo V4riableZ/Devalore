@@ -1,4 +1,4 @@
-#!usr/bin/python
+#!/usr/bin/python
 
 F_name='Ben'
 L_name='Asulin'
