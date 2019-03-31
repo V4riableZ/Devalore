@@ -1,18 +1,23 @@
 #!/usr/bin/env bash
-script_name=''
+clear
+echo "Script will be created with .py ending!!"
 
-echo "Script will be made with .py ending!!"
-
-echo "Enter python3 script name"
-read script_name
-
-if [ -e $script_name  ]; then
-		echo "File $script_name already exists!"
-		else
-  			touch "$script_name.py"
-			echo "#!/usr/bin/env python3" >> $script_name
-
+read -p "Please enter script name: " filename
+if [ -e "$filename.py" ]; then
+       echo "File Already exists!"
+       exit
+else
+touch $filename.py
+chmod +x $filename.py
+echo "#!/usr/bin/env python3" >> "$filename.py"
+read -p "Do you want to open the file now? Y/N " answer
+fi
+if [ $answer == y ] || [ $answer == Y ]; then
+       vim "$filename.py"
+else
+       exit
 fi
 
+#Script by or bracha
 
 
