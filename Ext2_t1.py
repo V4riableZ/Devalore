@@ -2,8 +2,8 @@
 
 from __future__ import division
 
-num1=input('Please a number:')
-num2=input('Please enter another number:')
+num1=input(int)('Please enter a number:')
+num2=input(int)('Please enter another number:')
 
 numSum=num1+num2
 numMulti=num1*num2

@@ -1,19 +1,14 @@
-#!/usr/bin/python
-
-str1=raw_input("Enter a word:")
-str2=raw_input("Enter another word:")
+#!/usr/bin/env python3
 
 opt=[1,2,3]
-num=opt
 
-print("Choose a number: %s"%num)
-num=input()
+str1=input("Enter a word:")
+str2=input("Enter another word:")
 
-for word in str1:
-    if len(str1) > len(str2):
-	long_str=str1
-	print(long_str)
-    else:
-	long_str=str2
-	print(long_str)
+num=int(input(("Choose a number:")))
+
+if len(str1) > len(str2):
+    print(str1)
+else:
+    print("Longest word %s"%str2)
 
