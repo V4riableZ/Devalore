@@ -13,7 +13,7 @@ echo "#!/usr/bin/env python3" >> "$filename.py"
 read -p "Do you want to open the file now? Y/N " answer
 fi
 if [ $answer == y ] || [ $answer == Y ]; then
-       vim "$filename.py"
+       nano "$filename.py"
 else
        exit
 fi
