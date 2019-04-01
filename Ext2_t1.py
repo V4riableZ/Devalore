@@ -1,6 +1,9 @@
 #!/usr/bin/python
 
 from __future__ import division
+import os
+
+os.system('clear')
 
 num1=int(input('Please enter a number:'))
 num2=int(input('Please enter another number:'))
