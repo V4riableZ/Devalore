@@ -1,0 +1,2 @@
+There is no key difference really , both are used as
+Placeholders for future use inside a class

@@ -1,0 +1,11 @@
+os.environ is a wrapper for os.getenv
+
+os.getenv uses os.environ saved values in order to operate
+
+os.getenv is dependant of the import of os module 
+
+we must import the os module to import os.environ
+
+and only then os.getenv will be loaded
+
+basically os.getenv is a shortcut under os.evniron.get

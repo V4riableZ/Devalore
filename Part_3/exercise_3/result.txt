@@ -1,0 +1,6 @@
+Lambda expression takes single expressions
+And in python 2.x print is a statement
+And python 2.x will print invalid syntax.
+In python 3 print is a function
+Therefore "f = lambda x: print(x)"
+Works in python3 only.

@@ -1,0 +1,2 @@
+json.dump() converts dictionary data to a .JSON file
+json.dumps() converts dictionary data to a JSON formatted string
